@@ -2,10 +2,30 @@
 \usepackage[english]{babel}
 \usepackage{blindtext}
 \usepackage{titlesec}
+\usepackage{titling}
+\usepackage{geometry}
 
 \titleformat{\section}
-{\huge}{}{}{}
+{\huge\bfseries\lowercase}{}{0em}{}[\titlerule]
 
+\titleformat{\subsection}
+{\bfseries\large}{$\sim$}{1em}{}
+
+
+\titleformat{\subsubsection}[runin]
+{\bfseries}{}{}{}
+
+\renewcommand{\maketitle}{
+\begin{center}
+{\huge\bfseries
+\theauthor}
+
+\vspace{.25em}
+
+nicolas@luarte.net
+
+\end{center}
+}
 
 
 \begin{document}
@@ -13,16 +33,15 @@
 
 
 \title{R\'esum\'e}
-\author{Nicolás Luarte}
+\author{Nicol\'as Luarte}
 
 
 \maketitle
 \section{Research interests}
-easda
-lemental GONOSNDAOSNDOASNDOASND
-\section{Education}
 \blindtext
+\section{Education}
 \subsection{Under-graduate}
+\subsubsection{2010 -  2014}
 \blindtext
 \subsection{Graduate}
 \blindtext
