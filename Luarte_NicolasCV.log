@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.1)  5 AUG 2018 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.1)  5 AUG 2018 17:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -97,19 +97,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¡ in font cmr12!
 
-./Luarte_NicolasCV.tex:21: Missing number, treated as zero.
+./Luarte_NicolasCV.tex:20: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.21 \section{Research interests}
+l.20 \section{Research interests}
                                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Luarte_NicolasCV.tex:21: Illegal unit of measure (pt inserted).
+./Luarte_NicolasCV.tex:20: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.21 \section{Research interests}
+l.20 \section{Research interests}
                                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -118,24 +118,19 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-
-Overfull \hbox (14.29263pt too wide) in paragraph at lines 22--25
-\OT1/cmr/m/n/10 jalks-d-jalks-d-jalks-d-jalks-d-jalks-d-js-lkd-jal-skd-jaslkd laskd-jal-sj-dal-skdj el-e-men-tal GONOS-
- []
-
-./Luarte_NicolasCV.tex:25: Missing number, treated as zero.
+./Luarte_NicolasCV.tex:23: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.25 \section{Education}
+l.23 \section{Education}
                         
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Luarte_NicolasCV.tex:25: Illegal unit of measure (pt inserted).
+./Luarte_NicolasCV.tex:23: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.25 \section{Education}
+l.23 \section{Education}
                         
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -147,19 +142,19 @@ two letters. (See Chapter 27 of The TeXbook.)
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-./Luarte_NicolasCV.tex:31: Missing number, treated as zero.
+./Luarte_NicolasCV.tex:29: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.31 \section{Research experience}
+l.29 \section{Research experience}
                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Luarte_NicolasCV.tex:31: Illegal unit of measure (pt inserted).
+./Luarte_NicolasCV.tex:29: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.31 \section{Research experience}
+l.29 \section{Research experience}
                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -168,19 +163,19 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Luarte_NicolasCV.tex:37: Missing number, treated as zero.
+./Luarte_NicolasCV.tex:35: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.37 \section{Other work experience}
+l.35 \section{Other work experience}
                                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Luarte_NicolasCV.tex:37: Illegal unit of measure (pt inserted).
+./Luarte_NicolasCV.tex:35: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.37 \section{Other work experience}
+l.35 \section{Other work experience}
                                     
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -190,19 +185,19 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 [2]
-./Luarte_NicolasCV.tex:43: Missing number, treated as zero.
+./Luarte_NicolasCV.tex:41: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.43 \section{Other skills}
+l.41 \section{Other skills}
                            
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Luarte_NicolasCV.tex:43: Illegal unit of measure (pt inserted).
+./Luarte_NicolasCV.tex:41: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.43 \section{Other skills}
+l.41 \section{Other skills}
                            
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -212,11 +207,32 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 [3]
+./Luarte_NicolasCV.tex:47: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.47 \section{Interests}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./Luarte_NicolasCV.tex:47: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.47 \section{Interests}
+                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
 ./Luarte_NicolasCV.tex:49: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.49 \section{Interests}
-                        
+l.49 \section{Conferences and courses attended}
+                                               
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -224,8 +240,8 @@ look up `weird error' in the index to The TeXbook.)
 ./Luarte_NicolasCV.tex:49: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.49 \section{Interests}
-                        
+l.49 \section{Conferences and courses attended}
+                                               
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -236,8 +252,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 ./Luarte_NicolasCV.tex:51: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.51 \section{Conferences and courses attended}
-                                               
+l.51 \section{References}
+                         
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -245,28 +261,7 @@ look up `weird error' in the index to The TeXbook.)
 ./Luarte_NicolasCV.tex:51: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.51 \section{Conferences and courses attended}
-                                               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./Luarte_NicolasCV.tex:53: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.53 \section{References}
-                         
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./Luarte_NicolasCV.tex:53: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.53 \section{References}
+l.51 \section{References}
                          
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -279,13 +274,13 @@ two letters. (See Chapter 27 of The TeXbook.)
 Here is how much of TeX's memory you used:
  1183 strings out of 492982
  15649 string characters out of 6134897
- 91277 words of memory out of 5000000
+ 90277 words of memory out of 5000000
  4796 multiletter control sequences out of 15000+600000
  7281 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  23i,6n,28p,203b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Luarte_NicolasCV.pdf (5 pages, 61134 bytes).
+Output written on Luarte_NicolasCV.pdf (5 pages, 60633 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
