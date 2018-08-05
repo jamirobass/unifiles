@@ -1,5 +1,5 @@
 # Fdb version 3
-["bibtex lat"] 1533494714 "lat.aux" "lat.bbl" "lat" 1533494733
+["bibtex lat"] 1533494714 "lat.aux" "lat.bbl" "lat" 1533499876
   "/usr/share/texlive/texmf-dist/bibtex/bst/apacite/apacite.bst" 1480098433 141073 9d7b79dbf9d91133318126032cff8c27 ""
   "lat.aux" 1533494733 102 f2e7af48dd42ceff5a87256cec696f01 ""
   "lat.bcf" 0 -1 0 ""
@@ -7,7 +7,7 @@
   (generated)
   "lat.bbl"
   "lat.blg"
-["pdflatex"] 1533494733 "lat.tex" "lat.pdf" "lat" 1533494733
+["pdflatex"] 1533494733 "lat.tex" "lat.pdf" "lat" 1533499876
   "/etc/texmf/web2c/texmf.cnf" 1532057643 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -24,7 +24,7 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1533108145 4127979 e406f22cfaaf58c1a30cb082de05a567 ""
   "lat.aux" 1533494733 102 f2e7af48dd42ceff5a87256cec696f01 ""
   "lat.bbl" 1533494714 49 0eba253fc001332e731e8aba3f23127b "bibtex lat"
-  "lat.tex" 1533494732 185 bafa8cee2c53d852f157f1e5cdf35f84 ""
+  "lat.tex" 1533499253 185 bafa8cee2c53d852f157f1e5cdf35f84 ""
   (generated)
   "lat.log"
   "lat.aux"
