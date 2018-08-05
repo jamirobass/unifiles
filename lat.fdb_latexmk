@@ -1,21 +1,19 @@
 # Fdb version 3
-["bibtex lat"] 1533456516 "lat.aux" "lat.bbl" "lat" 1533458537
+["bibtex lat"] 1533494714 "lat.aux" "lat.bbl" "lat" 1533494733
   "/usr/share/texlive/texmf-dist/bibtex/bst/apacite/apacite.bst" 1480098433 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "lat.aux" 1533458413 372 cb4c35eba28cd9867ba1e66c5d37c7dc ""
+  "lat.aux" 1533494733 102 f2e7af48dd42ceff5a87256cec696f01 ""
   "lat.bcf" 0 -1 0 ""
   "uni.bib" 1533456312 49981 f3e9ef7159b69bd4a27c3e83fde0153b ""
   (generated)
-  "lat.blg"
   "lat.bbl"
-["pdflatex"] 1533458537 "lat.tex" "lat.pdf" "lat" 1533458537
+  "lat.blg"
+["pdflatex"] 1533494733 "lat.tex" "lat.pdf" "lat" 1533494733
   "/etc/texmf/web2c/texmf.cnf" 1532057643 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1480098701 1288 655e228510b4c2a1abe905c368440826 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1480098701 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1480098733 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1480098733 35752 024fb6c41858982481f6968b5fc26508 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1480098733 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/share/texlive/texmf-dist/tex/latex/apacite/apacite.sty" 1480098820 72212 966b0b8d2be774cb1d3a7f97b253b725 ""
   "/usr/share/texlive/texmf-dist/tex/latex/apacite/english.apc" 1480098820 9379 117f2e4bc3ecf95ba216634881711ffe ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1480098821 19821 310da678527a7dfe2a02c88af38079b7 ""
@@ -24,9 +22,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1533108128 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1533108145 4127979 e406f22cfaaf58c1a30cb082de05a567 ""
-  "lat.aux" 1533458413 372 cb4c35eba28cd9867ba1e66c5d37c7dc ""
-  "lat.bbl" 1533456516 855 f482fd70285b7217b5c6b5409fa373d1 "bibtex lat"
-  "lat.tex" 1533458536 598 d6afeac348c7dd6226767e9e77e53ccb ""
+  "lat.aux" 1533494733 102 f2e7af48dd42ceff5a87256cec696f01 ""
+  "lat.bbl" 1533494714 49 0eba253fc001332e731e8aba3f23127b "bibtex lat"
+  "lat.tex" 1533494732 185 bafa8cee2c53d852f157f1e5cdf35f84 ""
   (generated)
   "lat.log"
   "lat.aux"

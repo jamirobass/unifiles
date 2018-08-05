@@ -1,34 +1,3 @@
 \begin{thebibliography}{}
 
-\bibitem [\protect \citeauthoryear {%
-Pyke%
-, Pulliam%
-\BCBL {}\ \BBA {} Charnov%
-}{%
-Pyke%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1977}}%
-}]{%
-Pyke_1977}
-\APACinsertmetastar {%
-Pyke_1977}%
-\begin{APACrefauthors}%
-Pyke, G\BPBI H.%
-, Pulliam, H\BPBI R.%
-\BCBL {}\ \BBA {} Charnov, E\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1977}{jun}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Optimal Foraging: A Selective Review of Theory and
-  Tests}} {{Optimal Foraging: A Selective Review of Theory and Tests}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{The Quarterly Review of Biology}{52}{2}{137--154}.
-\newblock
-\begin{APACrefURL} \url{https://doi.org/10.1086%2F409852} \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1086/409852} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
 \end{thebibliography}
