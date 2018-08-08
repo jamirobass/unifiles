@@ -1,0 +1,3 @@
+nombre, pesoSquat, rpeSquat, volSquat, pesoBench, rpeBench, volBench, pesoDL, rpeDL, volDL, fatiga, dolor
+
+output = 3.4*target+65
