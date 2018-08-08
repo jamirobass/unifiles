@@ -67,17 +67,10 @@ treeTexture = Screen('MakeTexture',windowPtr , tree);
 Screen('DrawTexture', windowPtr, treeTexture);
 Screen('Flip', windowPtr);
 WaitSecs(0.5); %actual = 1.5 sec 
-%Draw fix cross 
-crossTexture = Screen('MakeTexture', windowPtr, cross);
-Screen('DrawTexture', windowPtr, crossTexture);
-Screen('Flip', windowPtr);
-KbWait 
-WaitSecs(1);
-Screen('CloseAll');
-
 %To get key pressed and rt
 t1 = GetSecs;
 time = 0;
+%loop to get key and rt
 while time < 3
     [keyIsDown, t2, keyCode] = KbCheck;
     time = t2-t1;
@@ -88,3 +81,11 @@ while time < 3
         break;        
     end
 end 
+%Draw fix cross 
+crossTexture = Screen('MakeTexture', windowPtr, cross);
+Screen('DrawTexture', windowPtr, crossTexture);
+Screen('Flip', windowPtr);
+KbWait 
+WaitSecs(1);
+Screen('CloseAll');
+
