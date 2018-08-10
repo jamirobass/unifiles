@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.1)  7 AUG 2018 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.1)  9 AUG 2018 21:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -106,18 +106,18 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ) (./Luarte_NicolasCV.aux)
 \openout1 = `Luarte_NicolasCV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -153,19 +153,19 @@ LaTeX Font Info:    ... okay on input line 31.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-./Luarte_NicolasCV.tex:51: Missing number, treated as zero.
+./Luarte_NicolasCV.tex:54: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.51 \subsubsection{2017 -  2018}
+l.54 \subsubsection{2017 -  2018}
                                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Luarte_NicolasCV.tex:51: Illegal unit of measure (pt inserted).
+./Luarte_NicolasCV.tex:54: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.51 \subsubsection{2017 -  2018}
+l.54 \subsubsection{2017 -  2018}
                                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -174,20 +174,62 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Luarte_NicolasCV.tex:53: Missing number, treated as zero.
+./Luarte_NicolasCV.tex:56: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.53 \subsubsection{2010 - 2015}
+l.56 \subsubsection{2010 - 2015}
                                 
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Luarte_NicolasCV.tex:53: Illegal unit of measure (pt inserted).
+./Luarte_NicolasCV.tex:56: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.53 \subsubsection{2010 - 2015}
+l.56 \subsubsection{2010 - 2015}
                                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./Luarte_NicolasCV.tex:62: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.62 \subsubsection{Research study assistant}
+                                             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./Luarte_NicolasCV.tex:62: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.62 \subsubsection{Research study assistant}
+                                             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./Luarte_NicolasCV.tex:64: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.64 \subsubsection{Thesis-related research}
+                                            
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./Luarte_NicolasCV.tex:64: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.64 \subsubsection{Thesis-related research}
+                                            
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -199,18 +241,18 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] (./Luarte_NicolasCV.aux) ) 
 Here is how much of TeX's memory you used:
- 1747 strings out of 492982
- 24097 string characters out of 6134897
+ 1749 strings out of 492982
+ 24116 string characters out of 6134897
  105482 words of memory out of 5000000
- 5344 multiletter control sequences out of 15000+600000
- 4861 words of font info for 18 fonts, out of 8000000 for 9000
+ 5345 multiletter control sequences out of 15000+600000
+ 5169 words of font info for 19 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,4n,33p,203b,117s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on Luarte_NicolasCV.pdf (4 pages, 53912 bytes).
+ 23i,4n,33p,614b,132s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on Luarte_NicolasCV.pdf (4 pages, 66613 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 33 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
