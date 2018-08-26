@@ -31,7 +31,7 @@ responseTime = NaN(1000, 1);
 %Create all the maps
 for i = 1:8
     [rewardMap{i}, decreaseMap{i}] = createMap(...
-        tR(i), trStd(i), k(i), kstd(i), stdr(i));
+    tR(i), trStd(i), k(i), kstd(i), stdr(i));
 end
 %------------------------  Plots ----------------------%
 %Plot the maps
@@ -55,37 +55,65 @@ linkaxes([ax1,ax2,ax3, ax4],'xy')
 %if exploit: wait secs animation(?) + show reward (1.5 sec) 
 %if explore: wait secs animation(?) + swap tree + show reward(0) (1.5 sec)
 %inter trial w8 time normrnd 2 sec (investigating pupil dilation in decision research)
+block = 1;
+depth = 1;
+breadth = 1;
+trialNumber = 0;
+totReward = [];
 
-
-tree = imread('tree.jpg');
-cross = imread('cross.jpg');
 %VBLSyncTest
 [windowPtr, rect] = Screen('OpenWindow', 0, [127 127 127],...
-    [960 540 1920 1080]);
-%Draw tree
-treeTexture = Screen('MakeTexture',windowPtr , tree);
-Screen('DrawTexture', windowPtr, treeTexture);
-Screen('Flip', windowPtr);
-WaitSecs(0.5); %actual = 1.5 sec 
-%To get key pressed and rt
-t1 = GetSecs;
-time = 0;
-%loop to get key and rt
-while time < 3
-    [keyIsDown, t2, keyCode] = KbCheck;
-    time = t2-t1;
-    if (keyIsDown)
-        key = KbName(find(keyCode));
-        responseKey{1} = key;
-        responseTime(1) = time;
-        break;        
+[100,100,600,600]);
+tic;
+while true 
+    trialNumber = trialNumber + 1;
+    tree = imread('tree.jpg');
+    cross = imread('cross.jpg');
+    %Draw tree
+    treeTexture = Screen('MakeTexture',windowPtr , tree);
+    Screen('DrawTexture', windowPtr, treeTexture);
+    Screen('Flip', windowPtr);
+    WaitSecs(0.5); %actual = 1.5 sec 
+    %Draw fix cross 
+    crossTexture = Screen('MakeTexture', windowPtr, cross);
+    Screen('DrawTexture', windowPtr, crossTexture);
+    Screen('Flip', windowPtr);
+    KbWait 
+    %Screen('CloseAll');
+    %To get key pressed and rt
+    t1 = GetSecs;
+    time = 0;
+    %loop to get key and rt
+    while time < 3
+        [keyIsDown, t2, keyCode] = KbCheck;
+        time = t2-t1;
+        if (keyIsDown)
+            key = KbName(find(keyCode));
+            responseKey{trialNumber} = key;
+            responseTime(trialNumber) = time;
+            break;        
+        end
+    end 
+    %Explore or exploit
+    %l  = explore; a = exploit
+    if key == 'l'
+        breadth = breadth + 1;
+        depth = 1;
+        WaitSecs(9)
+        count = 0;
+    elseif key == 'a'
+        depth = depth + 1; 
+        WaitSecs(4.5)
+        count = 1;
     end
-end 
-%Draw fix cross 
-crossTexture = Screen('MakeTexture', windowPtr, cross);
-Screen('DrawTexture', windowPtr, crossTexture);
-Screen('Flip', windowPtr);
-KbWait 
-WaitSecs(1);
-Screen('CloseAll');
-
+    %move in map 
+    currReward = rewardMap{block}(depth, breadth)*count;
+    totReward(trialNumber) = currReward;
+    disp('Recompensa:')
+    disp(currReward)
+    WaitSecs(1);
+    if toc >= 300
+        break
+    end
+end
+Screen('CloseAll')
