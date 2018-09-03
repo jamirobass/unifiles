@@ -20,6 +20,10 @@ stdr = [.18, .18, .37, .13, 0, 0, 0, 0];
 h = [4.5, 4.5, 4.5, 4.5, 3, 3, 3, 3];
 d = [13.5, 4.5, 9, 9, 9, 9, 6, 6];
 
+%Fixation cross 
+xCenter = rect(3)/2;
+yCenter= rect(4)/2;
+
 %------------------------  Variables ----------------------%
 
 responseKey = cell(1000,1);
@@ -55,28 +59,28 @@ linkaxes([ax1,ax2,ax3, ax4],'xy')
 %if exploit: wait secs animation(?) + show reward (1.5 sec) 
 %if explore: wait secs animation(?) + swap tree + show reward(0) (1.5 sec)
 %inter trial w8 time normrnd 2 sec (investigating pupil dilation in decision research)
+
+%VBLSyncTest
+[windowPtr, rect] = Screen('OpenWindow', 0, [127 127 127],...
+[100,100,600,600]);
+%Load first block: Experiment 1A: Travel (Long)
 block = 1;
 depth = 1;
 breadth = 1;
 trialNumber = 0;
 totReward = [];
-
-%VBLSyncTest
-[windowPtr, rect] = Screen('OpenWindow', 0, [127 127 127],...
-[100,100,600,600]);
+d = 13.5
 tic;
 while true 
     trialNumber = trialNumber + 1;
-    tree = imread('tree.jpg');
-    cross = imread('cross.jpg');
+    tree = imread('gTree.png');
     %Draw tree
     treeTexture = Screen('MakeTexture',windowPtr , tree);
     Screen('DrawTexture', windowPtr, treeTexture);
     Screen('Flip', windowPtr);
     WaitSecs(0.5); %actual = 1.5 sec 
     %Draw fix cross 
-    crossTexture = Screen('MakeTexture', windowPtr, cross);
-    Screen('DrawTexture', windowPtr, crossTexture);
+    Screen(windowPtr, 'DrawText', '+', xCenter, yCenter, [255 255 255])
     Screen('Flip', windowPtr);
     KbWait 
     %Screen('CloseAll');
@@ -112,7 +116,7 @@ while true
     disp('Recompensa:')
     disp(currReward)
     WaitSecs(1);
-    if toc >= 300
+    if toc >= 10
         break
     end
 end

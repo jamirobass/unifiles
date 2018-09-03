@@ -1540,3 +1540,698 @@
   journal = {The American Naturalist},
 }
 
+https://www.youtube.com/watch?annotation_id=annotation_3168300971&feature=iv&src_vid=CfR_ZkRQz3Q&v=bxuHJ8JCXCkfunction pe_extract(type,filedir)
+
+%% Definitions and dir
+
+
+rootdir = filedir
+datadir = fullfile(rootdir,type,'Raw')
+outdir = fullfile(rootdir,type,'prepro')
+mkdir(outdir)
+alldata = dir(datadir)
+
+if strcmp(type,'EEG')
+   eegdat = true
+   eyedat = false
+elseif strcmp(type,'EYE')
+   eegdat = false
+   eyedat = true 
+end
+
+eeglab
+%% Read and save in .set
+if eegdat
+    for n =1:length(alldata)
+        if ~alldata(n).isdir
+            if strcmp(alldata(n).name(end-3:end),'easy')
+               data = pop_loadbci(fullfile(datadir,alldata(n).name),500);
+               nam = sprintf('%s.set',alldata(n).name(regexp(alldata(n).name,'_')+1:end-5));
+               pop_saveset( data, 'filename',nam,'filepath',outdir);
+            end
+        end
+    end
+end
+
+if eyedat
+    
+if ~alldata(n).isdir
+        if strcmp(alldata(n).name(end-3:end),'.xls')
+            data = readtable(fullfile(datadir,alldata(n).name));
+            pupil = data{:,[15:16]};
+            %exportada la data, tobii pro lab -> excel -> save as .xls
+            %leer como xlsread()
+            % tt = horas, (tiene que agarrarla como string
+            %time data es la matriz con los datos
+            %tf = fecha tf = datetime(timeData(1,4),'TimeZone', '-04:00');
+            %get recordingStartTime as a string from a table
+            %table <-- readtable('filename.xls');
+            tt = string(data{1,6});    
+            tf = datetime(data{1,5}),'TimeZone', '-04:00');
+            fraccion_dia = rem(datenum(tt),1); %sacando la hora en 'HH:MM:SS.mmm'
+            dia_ms = 24 * 60 * 60 *1000;
+            hora_ms = dia_ms * fraccion_dia;
+            %agarrar la fecha
+            fecha_ms = posixtime(tf)*1000; %para tenerla en ms
+            %sumamos para obtener en ms
+            unix_time = fecha_ms+hora_ms; %tiempo final
+            pupiltime = data{1,9}+unix_time;
+            save(fullfile(outdir,alldata(n).name),'pupil', 'pupiltime');
+
+
+
+
+    
+end
+end
+function pe_extract(type,filedir)
+
+%% Definitions and dir
+
+
+rootdir = filedir
+datadir = fullfile(rootdir,type,'Raw')
+outdir = fullfile(rootdir,type,'prepro')
+mkdir(outdir)
+alldata = dir(datadir)
+
+if strcmp(type,'EEG')
+   eegdat = true
+   eyedat = false
+elseif strcmp(type,'EYE')
+   eegdat = false
+   eyedat = true 
+end
+
+eeglab
+%% Read and save in .set
+if eegdat
+    for n =1:length(alldata)
+        if ~alldata(n).isdir
+            if strcmp(alldata(n).name(end-3:end),'easy')
+               data = pop_loadbci(fullfile(datadir,alldata(n).name),500);
+               nam = sprintf('%s.set',alldata(n).name(regexp(alldata(n).name,'_')+1:end-5));
+               pop_saveset( data, 'filename',nam,'filepath',outdir);
+            end
+        end
+    end
+end
+
+if eyedat
+    
+if ~alldata(n).isdir
+        if strcmp(alldata(n).name(end-3:end),'.xls')
+            data = readtable(fullfile(datadir,alldata(n).name));
+            pupil = data{:,[15:16]};
+            %exportada la data, tobii pro lab -> excel -> save as .xls
+            %leer como xlsread()
+            % tt = horas, (tiene que agarrarla como string
+            %time data es la matriz con los datos
+            %tf = fecha tf = datetime(timeData(1,4),'TimeZone', '-04:00');
+            %get recordingStartTime as a string from a table
+            %table <-- readtable('filename.xls');
+            tt = string(data{1,6});    
+            tf = datetime(data{1,5}),'TimeZone', '-04:00');
+            fraccion_dia = rem(datenum(tt),1); %sacando la hora en 'HH:MM:SS.mmm'
+            dia_ms = 24 * 60 * 60 *1000;
+            hora_ms = dia_ms * fraccion_dia;
+            %agarrar la fecha
+            fecha_ms = posixtime(tf)*1000; %para tenerla en ms
+            %sumamos para obtener en ms
+            unix_time = fecha_ms+hora_ms; %tiempo final
+            pupiltime = data{1,9}+unix_time;
+            save(fullfile(outdir,alldata(n).name),'pupil', 'pupiltime');
+
+
+
+
+    
+end
+end
+function pe_extract(type,filedir)
+
+%% Definitions and dir
+
+
+rootdir = filedir
+datadir = fullfile(rootdir,type,'Raw')
+outdir = fullfile(rootdir,type,'prepro')
+mkdir(outdir)
+alldata = dir(datadir)
+
+if strcmp(type,'EEG')
+   eegdat = true
+   eyedat = false
+elseif strcmp(type,'EYE')
+   eegdat = false
+   eyedat = true 
+end
+
+eeglab
+%% Read and save in .set
+if eegdat
+    for n =1:length(alldata)
+        if ~alldata(n).isdir
+            if strcmp(alldata(n).name(end-3:end),'easy')
+               data = pop_loadbci(fullfile(datadir,alldata(n).name),500);
+               nam = sprintf('%s.set',alldata(n).name(regexp(alldata(n).name,'_')+1:end-5));
+               pop_saveset( data, 'filename',nam,'filepath',outdir);
+            end
+        end
+    end
+end
+
+if eyedat
+    
+if ~alldata(n).isdir
+        if strcmp(alldata(n).name(end-3:end),'.xls')
+            data = readtable(fullfile(datadir,alldata(n).name));
+            pupil = data{:,[15:16]};
+            %exportada la data, tobii pro lab -> excel -> save as .xls
+            %leer como xlsread()
+            % tt = horas, (tiene que agarrarla como string
+            %time data es la matriz con los datos
+            %tf = fecha tf = datetime(timeData(1,4),'TimeZone', '-04:00');
+            %get recordingStartTime as a string from a table
+            %table <-- readtable('filename.xls');
+            tt = string(data{1,6});    
+            tf = datetime(data{1,5}),'TimeZone', '-04:00');
+            fraccion_dia = rem(datenum(tt),1); %sacando la hora en 'HH:MM:SS.mmm'
+            dia_ms = 24 * 60 * 60 *1000;
+            hora_ms = dia_ms * fraccion_dia;
+            %agarrar la fecha
+            fecha_ms = posixtime(tf)*1000; %para tenerla en ms
+            %sumamos para obtener en ms
+            unix_time = fecha_ms+hora_ms; %tiempo final
+            pupiltime = data{1,9}+unix_time;
+            save(fullfile(outdir,alldata(n).name),'pupil', 'pupiltime');
+
+
+
+
+    
+end
+end
+function pe_extract(type,filedir)
+
+%% Definitions and dir
+
+
+rootdir = filedir
+datadir = fullfile(rootdir,type,'Raw')
+outdir = fullfile(rootdir,type,'prepro')
+mkdir(outdir)
+alldata = dir(datadir)
+
+if strcmp(type,'EEG')
+   eegdat = true
+   eyedat = false
+elseif strcmp(type,'EYE')
+   eegdat = false
+   eyedat = true 
+end
+
+eeglab
+%% Read and save in .set
+if eegdat
+    for n =1:length(alldata)
+        if ~alldata(n).isdir
+            if strcmp(alldata(n).name(end-3:end),'easy')
+               data = pop_loadbci(fullfile(datadir,alldata(n).name),500);
+               nam = sprintf('%s.set',alldata(n).name(regexp(alldata(n).name,'_')+1:end-5));
+               pop_saveset( data, 'filename',nam,'filepath',outdir);
+            end
+        end
+    end
+end
+
+if eyedat
+    
+if ~alldata(n).isdir
+        if strcmp(alldata(n).name(end-3:end),'.xls')
+            data = readtable(fullfile(datadir,alldata(n).name));
+            pupil = data{:,[15:16]};
+            %exportada la data, tobii pro lab -> excel -> save as .xls
+            %leer como xlsread()
+            % tt = horas, (tiene que agarrarla como string
+            %time data es la matriz con los datos
+            %tf = fecha tf = datetime(timeData(1,4),'TimeZone', '-04:00');
+            %get recordingStartTime as a string from a table
+            %table <-- readtable('filename.xls');
+            tt = string(data{1,6});    
+            tf = datetime(data{1,5}),'TimeZone', '-04:00');
+            fraccion_dia = rem(datenum(tt),1); %sacando la hora en 'HH:MM:SS.mmm'
+            dia_ms = 24 * 60 * 60 *1000;
+            hora_ms = dia_ms * fraccion_dia;
+            %agarrar la fecha
+            fecha_ms = posixtime(tf)*1000; %para tenerla en ms
+            %sumamos para obtener en ms
+            unix_time = fecha_ms+hora_ms; %tiempo final
+            pupiltime = data{1,9}+unix_time;
+            save(fullfile(outdir,alldata(n).name),'pupil', 'pupiltime');
+
+
+
+
+    
+end
+end
+%function [pupil]= pe_extract(type,filedir)
+
+type = 'EYE';
+filedir ='/home/nicoluarte/Music';
+
+%% Definitions and dir
+
+
+rootdir = filedir
+datadir = fullfile(rootdir,type,'Raw')
+outdir = fullfile(rootdir,type,'prepro')
+mkdir(outdir)
+alldata = dir(datadir)
+
+if strcmp(type,'EEG')
+    eegdat = true
+    eyedat = false
+elseif strcmp(type,'EYE')
+    eegdat = false
+    eyedat = true 
+end
+
+%eeglab
+%% Read and save in .set
+if eegdat
+    for n =1:length(alldata)
+        if ~alldata(n).isdir
+            if strcmp(alldata(n).name(end-3:end),'easy')
+                data = pop_loadbci(fullfile(datadir,alldata(n).name),500);
+                nam = sprintf('%s.set',alldata(n).name(regexp(alldata(n).name,'_')+1:end-5));
+                pop_saveset( data, 'filename',nam,'filepath',outdir);
+            end
+        end
+    end
+end
+
+if eyedat
+    for n=1:length(alldata)
+        if ~alldata(n).isdir
+            if strcmp(alldata(n).name(end-3:end),'.xls')
+                data = readtable(fullfile(datadir,alldata(n).name));
+                pupil = data{:,[15:16]};
+                %exportada la data, tobii pro lab -> excel -> save as .xls
+                %leer como xlsread()
+                % tt = horas, (tiene que agarrarla como string
+                %time data es la matriz con los datos
+                %tf = fecha tf = datetime(timeData(1,4),'TimeZone', '-04:00');
+                %get recordingStartTime as a string from a table
+                %table <-- readtable('filename.xls');
+                tt = string(data{1,6});    
+                tf = datetime(data{1,5},'TimeZone', '-04:00');
+                fraccion_dia = rem(datenum(tt),1); %sacando la hora en 'HH:MM:SS.mmm'
+                dia_ms = 24 * 60 * 60 *1000;
+                hora_ms = dia_ms * fraccion_dia;
+                %agarrar la fecha
+                fecha_ms = posixtime(tf)*1000; %para tenerla en ms
+                %sumamos para obtener en ms
+                unix_time = fecha_ms+hora_ms; %tiempo final
+                pupiltime = data{1,9}+unix_time;
+                save(fullfile(outdir,alldata(n).name),'pupil', 'pupiltime');
+end
+end
+
+
+
+end
+%function [pupil]= pe_extract(type,filedir)
+
+type = 'EYE';
+filedir ='/home/nicoluarte/testeo';
+
+%% Definitions and dir
+
+
+rootdir = filedir
+datadir = fullfile(rootdir,type,'Raw')
+outdir = fullfile(rootdir,type,'prepro')
+mkdir(outdir)
+alldata = dir(datadir)
+
+if strcmp(type,'EEG')
+    eegdat = true
+    eyedat = false
+elseif strcmp(type,'EYE')
+    eegdat = false
+    eyedat = true 
+end
+
+%eeglab
+%% Read and save in .set
+if eegdat
+    for n =1:length(alldata)
+        if ~alldata(n).isdir
+            if strcmp(alldata(n).name(end-3:end),'easy')
+                data = pop_loadbci(fullfile(datadir,alldata(n).name),500);
+                nam = sprintf('%s.set',alldata(n).name(regexp(alldata(n).name,'_')+1:end-5));
+                pop_saveset( data, 'filename',nam,'filepath',outdir);
+            end
+        end
+    end
+end
+
+if eyedat
+    for n=1:length(alldata)
+        if ~alldata(n).isdir
+            if strcmp(alldata(n).name(end-3:end),'.xls')
+                data = readtable(fullfile(datadir,alldata(n).name));
+                pupil = data{:,[16:17]};
+                %exportada la data, tobii pro lab -> excel -> save as .xls
+                %leer como xlsread()
+                % tt = horas, (tiene que agarrarla como string
+                %time data es la matriz con los datos
+                %tf = fecha tf = datetime(timeData(1,4),'TimeZone', '-04:00');
+                %get recordingStartTime as a string from a table
+                %table <-- readtable('filename.xls');
+                tt = string(data{1,6});    
+                tf = datetime(data{1,5},'TimeZone', '-04:00');
+                fraccion_dia = rem(datenum(tt),1); %sacando la hora en 'HH:MM:SS.mmm'
+                dia_ms = 24 * 60 * 60 *1000;
+                hora_ms = dia_ms * fraccion_dia;
+                %agarrar la fecha
+                fecha_ms = posixtime(tf)*1000; %para tenerla en ms
+                %sumamos para obtener en ms
+                unix_time = fecha_ms+hora_ms; %tiempo final
+                pupiltime = data{:,9}+unix_time;
+                save(fullfile(outdir,alldata(n).name(1:end-4)),'pupil', 'pupiltime');
+end
+end
+
+
+
+end
+end%function [pupil]= pe_extract(type,filedir)
+
+type = 'EYE';
+filedir ='/home/nicoluarte/testeo';
+
+%% Definitions and dir
+
+
+rootdir = filedir
+datadir = fullfile(rootdir,type,'Raw')
+outdir = fullfile(rootdir,type,'prepro')
+mkdir(outdir)
+alldata = dir(datadir)
+
+if strcmp(type,'EEG')
+    eegdat = true
+    eyedat = false
+elseif strcmp(type,'EYE')
+    eegdat = false
+    eyedat = true 
+end
+
+%eeglab
+%% Read and save in .set
+if eegdat
+    for n =1:length(alldata)
+        if ~alldata(n).isdir
+            if strcmp(alldata(n).name(end-3:end),'easy')
+                data = pop_loadbci(fullfile(datadir,alldata(n).name),500);
+                nam = sprintf('%s.set',alldata(n).name(regexp(alldata(n).name,'_')+1:end-5));
+                pop_saveset( data, 'filename',nam,'filepath',outdir);
+            end
+        end
+    end
+end
+
+if eyedat
+    for n=1:length(alldata)
+        if ~alldata(n).isdir
+            if strcmp(alldata(n).name(end-3:end),'.xls')
+                data = readtable(fullfile(datadir,alldata(n).name));
+                pupil = data{:,[16:17]};
+                %exportada la data, tobii pro lab -> excel -> save as .xls
+                %leer como xlsread()
+                % tt = horas, (tiene que agarrarla como string
+                %time data es la matriz con los datos
+                %tf = fecha tf = datetime(timeData(1,4),'TimeZone', '-04:00');
+                %get recordingStartTime as a string from a table
+                %table <-- readtable('filename.xls');
+                tt = string(data{1,6});    
+                tf = datetime(data{1,5},'TimeZone', '-04:00');
+                fraccion_dia = rem(datenum(tt),1); %sacando la hora en 'HH:MM:SS.mmm'
+                dia_ms = 24 * 60 * 60 *1000;
+                hora_ms = dia_ms * fraccion_dia;
+                %agarrar la fecha
+                fecha_ms = posixtime(tf)*1000; %para tenerla en ms
+                %sumamos para obtener en ms
+                unix_time = fecha_ms+hora_ms; %tiempo final
+                pupiltime = data{:,9}+unix_time;
+                save(fullfile(outdir,alldata(n).name(1:end-4)),'pupil', 'pupiltime');
+end
+end
+
+
+
+end
+end%opening screen
+%HideCursor
+%[windowPt, rect]=Screen('bla', windowPtrOrScreenNumber[,color][,rect]
+%[,pixelSize][,numberofBuffers][,stereomode][,multisample][,imaginmode]
+%[,specialFlags][,clientRect]);
+%------------------------  Experimental parameters ----------------------%
+%tR = tree richness
+%tRStd = tree richness std
+%k = depletion rate
+%kstd = depletion rate std
+%stdr = reward stdr
+%h = harvest time 
+%d = travel time 
+
+tR = [10 10 10 10 10 10 10 10];
+trStd = [0 0 0 0 1 1 1 1];
+k = [.85, .85, .68, .89, .88, .94, .88, .94];
+kstd = [0, 0, 0, 0, .07, .07, .07, .07];
+stdr = [.18, .18, .37, .13, 0, 0, 0, 0];
+h = [4.5, 4.5, 4.5, 4.5, 3, 3, 3, 3];
+d = [13.5, 4.5, 9, 9, 9, 9, 6, 6];
+
+%------------------------  Variables ----------------------%
+
+responseKey = cell(1000,1);
+responseTime = NaN(1000, 1);
+
+
+
+%------------------------  Matrix loops ----------------------%
+%Create all the maps
+for i = 1:8
+    [rewardMap{i}, decreaseMap{i}] = createMap(...
+    tR(i), trStd(i), k(i), kstd(i), stdr(i));
+end
+%------------------------  Plots ----------------------%
+%Plot the maps
+ax1=subplot(2,2,1);
+plot(rewardMap{1}(1:10,1:10));
+title('1A: Travel')
+ax2=subplot(2,2,2);
+plot(rewardMap{2}(1:10,1:10));
+title('1A: Travel')
+ax3=subplot(2,2,3);
+plot(rewardMap{3}(1:10,1:10));
+title('1B: Steep Depletion')
+ax4=subplot(2,2,4);
+plot(rewardMap{4}(1:10,1:10));
+title('1B: shallow Depletion')
+linkaxes([ax1,ax2,ax3, ax4],'xy')
+%------------------------  Task 1A ----------------------%
+%1.5 sec stimulus display (no kb act allowed)
+%black fixation cross, make choice, 1.5 sec max time
+%if over max time: "Time out" msg for 3 sec 
+%if exploit: wait secs animation(?) + show reward (1.5 sec) 
+%if explore: wait secs animation(?) + swap tree + show reward(0) (1.5 sec)
+%inter trial w8 time normrnd 2 sec (investigating pupil dilation in decision research)
+block = 1;
+depth = 1;
+breadth = 1;
+trialNumber = 0;
+totReward = [];
+
+%VBLSyncTest
+[windowPtr, rect] = Screen('OpenWindow', 0, [127 127 127],...
+[100,100,600,600]);
+tic;
+while true 
+    trialNumber = trialNumber + 1;
+    tree = imread('tree.jpg');
+    cross = imread('cross.jpg');
+    %Draw tree
+    treeTexture = Screen('MakeTexture',windowPtr , tree);
+    Screen('DrawTexture', windowPtr, treeTexture);
+    Screen('Flip', windowPtr);
+    WaitSecs(0.5); %actual = 1.5 sec 
+    %Draw fix cross 
+    crossTexture = Screen('MakeTexture', windowPtr, cross);
+    Screen('DrawTexture', windowPtr, crossTexture);
+    Screen('Flip', windowPtr);
+    KbWait 
+    %Screen('CloseAll');
+    %To get key pressed and rt
+    t1 = GetSecs;
+    time = 0;
+    %loop to get key and rt
+    while time < 3
+        [keyIsDown, t2, keyCode] = KbCheck;
+        time = t2-t1;
+        if (keyIsDown)
+            key = KbName(find(keyCode));
+            responseKey{trialNumber} = key;
+            responseTime(trialNumber) = time;
+            break;        
+        end
+    end 
+    %Explore or exploit
+    %l  = explore; a = exploit
+    if key == 'l'
+        breadth = breadth + 1;
+        depth = 1;
+        WaitSecs(9)
+        count = 0;
+    elseif key == 'a'
+        depth = depth + 1; 
+        WaitSecs(4.5)
+        count = 1;
+    end
+    %move in map 
+    currReward = rewardMap{block}(depth, breadth)*count;
+    totReward(trialNumber) = currReward;
+    disp('Recompensa:')
+    disp(currReward)
+    WaitSecs(1);
+    if toc >= 300
+        break
+    end
+end
+Screen('CloseAll')%opening screen
+%HideCursor
+%[windowPt, rect]=Screen('bla', windowPtrOrScreenNumber[,color][,rect]
+%[,pixelSize][,numberofBuffers][,stereomode][,multisample][,imaginmode]
+%[,specialFlags][,clientRect]);
+%------------------------  Experimental parameters ----------------------%
+%tR = tree richness
+%tRStd = tree richness std
+%k = depletion rate
+%kstd = depletion rate std
+%stdr = reward stdr
+%h = harvest time 
+%d = travel time 
+
+tR = [10 10 10 10 10 10 10 10];
+trStd = [0 0 0 0 1 1 1 1];
+k = [.85, .85, .68, .89, .88, .94, .88, .94];
+kstd = [0, 0, 0, 0, .07, .07, .07, .07];
+stdr = [.18, .18, .37, .13, 0, 0, 0, 0];
+h = [4.5, 4.5, 4.5, 4.5, 3, 3, 3, 3];
+d = [13.5, 4.5, 9, 9, 9, 9, 6, 6];
+
+%------------------------  Variables ----------------------%
+
+responseKey = cell(1000,1);
+responseTime = NaN(1000, 1);
+
+
+
+%------------------------  Matrix loops ----------------------%
+%Create all the maps
+for i = 1:8
+    [rewardMap{i}, decreaseMap{i}] = createMap(...
+    tR(i), trStd(i), k(i), kstd(i), stdr(i));
+end
+%------------------------  Plots ----------------------%
+%Plot the maps
+ax1=subplot(2,2,1);
+plot(rewardMap{1}(1:10,1:10));
+title('1A: Travel')
+ax2=subplot(2,2,2);
+plot(rewardMap{2}(1:10,1:10));
+title('1A: Travel')
+ax3=subplot(2,2,3);
+plot(rewardMap{3}(1:10,1:10));
+title('1B: Steep Depletion')
+ax4=subplot(2,2,4);
+plot(rewardMap{4}(1:10,1:10));
+title('1B: shallow Depletion')
+linkaxes([ax1,ax2,ax3, ax4],'xy')
+%------------------------  Task 1A ----------------------%
+%1.5 sec stimulus display (no kb act allowed)
+%black fixation cross, make choice, 1.5 sec max time
+%if over max time: "Time out" msg for 3 sec 
+%if exploit: wait secs animation(?) + show reward (1.5 sec) 
+%if explore: wait secs animation(?) + swap tree + show reward(0) (1.5 sec)
+%inter trial w8 time normrnd 2 sec (investigating pupil dilation in decision research)
+
+%VBLSyncTest
+[windowPtr, rect] = Screen('OpenWindow', 0, [127 127 127],...
+[100,100,600,600]);
+%Load first block: Experiment 1A: Travel (Long)
+block = 1;
+depth = 1;
+breadth = 1;
+trialNumber = 0;
+totReward = [];
+d = 13.5
+tic;
+while true 
+    trialNumber = trialNumber + 1;
+    tree = imread('tree.jpg');
+    cross = imread('cross.jpg');
+    %Draw tree
+    treeTexture = Screen('MakeTexture',windowPtr , tree);
+    Screen('DrawTexture', windowPtr, treeTexture);
+    Screen('Flip', windowPtr);
+    WaitSecs(0.5); %actual = 1.5 sec 
+    %Draw fix cross 
+    fixCr = ones(20,20)*255;
+    fixCr(10:11,:)=0;
+    fixCr(:,10:11)=0;
+    fixCross = Screen('MakeTexture', windowPtr, fixCr);
+    Screen('Flip', windowPtr);
+    KbWait 
+    %Screen('CloseAll');
+    %To get key pressed and rt
+    t1 = GetSecs;
+    time = 0;
+    %loop to get key and rt
+    while time < 3
+        [keyIsDown, t2, keyCode] = KbCheck;
+        time = t2-t1;
+        if (keyIsDown)
+            key = KbName(find(keyCode));
+            responseKey{trialNumber} = key;
+            responseTime(trialNumber) = time;
+            break;        
+        end
+    end 
+    %Explore or exploit
+    %l  = explore; a = exploit
+    if key == 'l'
+        breadth = breadth + 1;
+        depth = 1;
+        WaitSecs(9)
+        count = 0;
+    elseif key == 'a'
+        depth = depth + 1; 
+        WaitSecs(4.5)
+        count = 1;
+    end
+    %move in map 
+    currReward = rewardMap{block}(depth, breadth)*count;
+    totReward(trialNumber) = currReward;
+    disp('Recompensa:')
+    disp(currReward)
+    WaitSecs(1);
+    if toc >= 10
+        break
+    end
+end
+Screen('CloseAll')
