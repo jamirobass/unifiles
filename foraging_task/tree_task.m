@@ -61,6 +61,7 @@ linkaxes([ax1,ax2,ax3, ax4],'xy')
 %inter trial w8 time normrnd 2 sec (investigating pupil dilation in decision research)
 
 %VBLSyncTest
+PsychDefaultSetup(2);
 [windowPtr, rect] = Screen('OpenWindow', 0, [127 127 127],...
 [100,100,600,600]);
 %Load first block: Experiment 1A: Travel (Long)
@@ -73,14 +74,14 @@ d = 13.5
 tic;
 while true 
     trialNumber = trialNumber + 1;
-    tree = imread('gTree.png');
+    tree = imread('tree.jpg');
     %Draw tree
     treeTexture = Screen('MakeTexture',windowPtr , tree);
     Screen('DrawTexture', windowPtr, treeTexture);
     Screen('Flip', windowPtr);
-    WaitSecs(0.5); %actual = 1.5 sec 
+    WaitSecs(10); %actual = 1.5 sec 
     %Draw fix cross 
-    Screen(windowPtr, 'DrawText', '+', xCenter, yCenter, [255 255 255])
+    Screen(windowPtr, 'DrawText', '+', xCenter, yCenter, [150 150 150])
     Screen('Flip', windowPtr);
     KbWait 
     %Screen('CloseAll');
