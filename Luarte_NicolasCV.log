@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.1)  9 AUG 2018 21:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.1)  9 OCT 2018 17:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -106,18 +106,18 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ) (./Luarte_NicolasCV.aux)
 \openout1 = `Luarte_NicolasCV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -153,32 +153,22 @@ LaTeX Font Info:    ... okay on input line 34.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-./Luarte_NicolasCV.tex:54: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.54 \subsubsection{2017 -  2018}
-                                 
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./Luarte_NicolasCV.tex:54: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.54 \subsubsection{2017 -  2018}
-                                 
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+./Luarte_NicolasCV.tex:55: Undefined control sequence.
+<argument> \bfseries \larger 
+                             
+l.55 \subsection{Graduate}
+                          \vspace{.90em}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 ./Luarte_NicolasCV.tex:56: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.56 \subsubsection{2010 - 2015}
-                                
+l.56 \subsubsection{2017 -  2019}
+                                 
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -186,7 +176,28 @@ look up `weird error' in the index to The TeXbook.)
 ./Luarte_NicolasCV.tex:56: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.56 \subsubsection{2010 - 2015}
+l.56 \subsubsection{2017 -  2019}
+                                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./Luarte_NicolasCV.tex:58: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.58 \subsubsection{2014 - 2015}
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./Luarte_NicolasCV.tex:58: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.58 \subsubsection{2014 - 2015}
                                 
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -195,19 +206,62 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Luarte_NicolasCV.tex:62: Missing number, treated as zero.
+./Luarte_NicolasCV.tex:60: Undefined control sequence.
+<argument> \bfseries \larger 
+                             
+l.60 \subsection{Undergraduate}
+                               \vspace{.90em}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Luarte_NicolasCV.tex:61: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.62 \subsubsection{Research study assistant}
+l.61 \subsubsection{2010 - 2014}
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./Luarte_NicolasCV.tex:61: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.61 \subsubsection{2010 - 2014}
+                                
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./Luarte_NicolasCV.tex:64: Undefined control sequence.
+<argument> \bfseries \larger 
+                             
+l.64 ...cientific and Technological Development)}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Luarte_NicolasCV.tex:65: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.65 \subsubsection{Research study assistant}
                                              
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Luarte_NicolasCV.tex:62: Illegal unit of measure (pt inserted).
+./Luarte_NicolasCV.tex:65: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.62 \subsubsection{Research study assistant}
+l.65 \subsubsection{Research study assistant}
                                              
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -216,19 +270,19 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Luarte_NicolasCV.tex:64: Missing number, treated as zero.
+./Luarte_NicolasCV.tex:67: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.64 \subsubsection{Thesis-related research}
+l.67 \subsubsection{Thesis-related research}
                                             
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Luarte_NicolasCV.tex:64: Illegal unit of measure (pt inserted).
+./Luarte_NicolasCV.tex:67: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.64 \subsubsection{Thesis-related research}
+l.67 \subsubsection{Thesis-related research}
                                             
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -237,22 +291,135 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+./Luarte_NicolasCV.tex:71: Undefined control sequence.
+<argument> \bfseries \larger 
+                             
+l.71 \subsection{Data acquisition}
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 73.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] (./Luarte_NicolasCV.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+./Luarte_NicolasCV.tex:78: Undefined control sequence.
+<argument> \bfseries \larger 
+                             
+l.78 \subsection{Data analysis}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Luarte_NicolasCV.tex:85: Undefined control sequence.
+<argument> \bfseries \larger 
+                             
+l.85 \subsection{Research-related}
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Luarte_NicolasCV.tex:92: Undefined control sequence.
+<argument> \bfseries \larger 
+                             
+l.92 \subsection{Programming}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Luarte_NicolasCV.tex:99: Undefined control sequence.
+<argument> \bfseries \larger 
+                             
+l.99 \subsection{Academic}
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Luarte_NicolasCV.tex:100: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.100 \subsubsection{Decision-making}
+                                      Decision heuristics under uncertainty ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./Luarte_NicolasCV.tex:100: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.100 \subsubsection{Decision-making}
+                                      Decision heuristics under uncertainty ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./Luarte_NicolasCV.tex:101: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.101 \subsubsection{Adaptive behavior}
+                                        Locus Coeruleus adapative-gain theor...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./Luarte_NicolasCV.tex:101: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.101 \subsubsection{Adaptive behavior}
+                                        Locus Coeruleus adapative-gain theor...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./Luarte_NicolasCV.tex:102: Undefined control sequence.
+<argument> \bfseries \larger 
+                             
+l.102 \subsection{Non-Academic}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2] [3] (./Luarte_NicolasCV.aux) ) 
 Here is how much of TeX's memory you used:
- 1749 strings out of 492982
- 24116 string characters out of 6134897
- 105482 words of memory out of 5000000
- 5345 multiletter control sequences out of 15000+600000
- 5169 words of font info for 19 fonts, out of 8000000 for 9000
+ 1754 strings out of 492982
+ 24169 string characters out of 6134897
+ 105491 words of memory out of 5000000
+ 5349 multiletter control sequences out of 15000+600000
+ 5467 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,4n,33p,614b,132s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on Luarte_NicolasCV.pdf (4 pages, 66613 bytes).
+ 23i,4n,33p,614b,170s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Luarte_NicolasCV.pdf (3 pages, 74659 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 34 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
