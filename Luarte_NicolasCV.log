@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.1)  9 OCT 2018 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.11)  19 OCT 2018 19:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -252,8 +252,8 @@ and I'll forget about whatever was undefined.
 ./Luarte_NicolasCV.tex:65: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.65 \subsubsection{Research study assistant}
-                                             
+l.65 \subsubsection{Research assistant}
+                                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -261,8 +261,8 @@ look up `weird error' in the index to The TeXbook.)
 ./Luarte_NicolasCV.tex:65: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.65 \subsubsection{Research study assistant}
-                                             
+l.65 \subsubsection{Research assistant}
+                                       
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -409,14 +409,14 @@ and I'll forget about whatever was undefined.
 [2] [3] (./Luarte_NicolasCV.aux) ) 
 Here is how much of TeX's memory you used:
  1754 strings out of 492982
- 24169 string characters out of 6134897
- 105491 words of memory out of 5000000
+ 24169 string characters out of 6134895
+ 105490 words of memory out of 5000000
  5349 multiletter control sequences out of 15000+600000
  5467 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  23i,4n,33p,614b,170s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Luarte_NicolasCV.pdf (3 pages, 74659 bytes).
+Output written on Luarte_NicolasCV.pdf (3 pages, 75593 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream

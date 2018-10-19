@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1539118615 "Luarte_NicolasCV.tex" "Luarte_NicolasCV.pdf" "Luarte_NicolasCV" 1539118615
+["pdflatex"] 1539988514 "Luarte_NicolasCV.tex" "Luarte_NicolasCV.pdf" "Luarte_NicolasCV" 1539988514
   "/etc/texmf/web2c/texmf.cnf" 1532057643 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -31,10 +31,10 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1533108128 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1533108145 4127979 e406f22cfaaf58c1a30cb082de05a567 ""
-  "Luarte_NicolasCV.aux" 1539118555 2477 af7a00e985c49371a1d2f43531dfc542 ""
-  "Luarte_NicolasCV.tex" 1539118614 4470 5c81bccf9ab10a79f790896a15f914b0 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1539292571 4126612 a44a0c04904b7bc6c8364f74e732fbbd ""
+  "Luarte_NicolasCV.aux" 1539988390 2471 29f2cbc907dd9e5745ab3affb99be595 ""
+  "Luarte_NicolasCV.tex" 1539988514 4659 7a3851ddf8e28692e9747da53d11ce4a ""
   (generated)
-  "Luarte_NicolasCV.pdf"
   "Luarte_NicolasCV.log"
   "Luarte_NicolasCV.aux"
+  "Luarte_NicolasCV.pdf"
